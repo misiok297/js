@@ -1,0 +1,35 @@
+<html>
+ <head>
+ 
+ 
+ </head>
+ <body>
+ 
+ <textarea col="100" rows="70" width="500">
+ 
+<html>
+<body>
+<div style="color:red;font-size:50px;">
+<script language="JavaScript">
+var m_was=prompt("m_was=","");
+var m_was1=1;
+
+var a=parseFloat(m_was1);
+var b=parseFloat(m_was);
+var c = b+1
+var d = b*c
+var e = b+2 
+var f= c*e
+
+
+
+document.write(""+a+" / "+b+" = "+a+" / "+e+" +  "+a+" /"+f+"             "+" "+a+" /"+d+"   )           <br>");
+</script>
+</div>
+</body>
+</html>
+ 
+
+ </textarea>
+</body>
+</html>
