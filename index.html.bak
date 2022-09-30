@@ -1,89 +1,134 @@
 <html>
 <head>
-<title>Przykład nr tutaj wpisz odpowiedni nume </title>
+<title>14 </title>
 <script language="JavaScript">
-function WinOpen_wasik1()
-{
-window.open("wasik_zadanie1.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
-}
-function WinOpen_wasik2()
-{
-window.open("wasik_zadanie2.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
-}
+	function WinOpen_wasik1()
+		{
+				window.open("wasik_zadanie1.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
+		}
+	function WinOpen_wasik2()
+		{
+				window.open("wasik_zadanie2.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
+		}
 
-function WinOpen_wasik1_kod()
-{
-window.open("wasik_zadanie1_kod.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
-}
-function WinOpen_wasik2_kod()
-{
-window.open("wasik_zadanie2_kod.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
-}
-
-
+	function WinOpen_wasik1_kod()
+		{
+	window.open("wasik_zadanie1_kod.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
+		}
+		function WinOpen_wasik2_kod()
+		{
+				window.open("wasik_zadanie2_kod.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
+		}
 
 
 
 
-function WinOpen_wasik3()
-{
-window.open("wasik_zadanie3.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
-}
-function WinOpen_wasik4()
-{
-window.open("wasik_zadanie4.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
-}
-function WinOpen_wasik5()
-{
-window.open("wasik_zadanie5.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
-}
-function WinOpen_wasik6()
-{
-window.open("wasik_zadanie6.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
-}
-function WinOpen_wasik7()
-{
-window.open("wasik_zadanie7.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
-}
-function WinOpen_wasik8()
-{
-window.open("wasik_zadanie8.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
-}
-function WinOpen_wasik9()
-{
-window.open("wasik_zadanie9.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
-}
-function WinOpen_wasik10()
-{
-window.open("wasik_zadanie10.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
-}
-function WinOpen_wasik10_kod()
-{
-window.open("wasik_zadanie10_kod.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
-}
-function WinOpen_wasik11()
-{
-window.open("wasik_zadanie11.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
-}
-function WinOpen_wasik12()
-{
-window.open("wasik_zadanie12.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
-}
-function WinOpen_wasik13()
-{
-window.open("wasik_zadanie13.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
-}
 
 
+	function WinOpen_wasik3()
+		{
+				window.open("wasik_zadanie3.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
+		}
+	function WinOpen_wasik4()
+		{
+				window.open("wasik_zadanie4.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
+		}
+	function WinOpen_wasik5()
+		{
+				window.open("wasik_zadanie5.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
+		}
+	function WinOpen_wasik6()
+		{
+				window.open("wasik_zadanie6.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
+		}
+	function WinOpen_wasik7()
+		{
+				window.open("wasik_zadanie7.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
+		}
+	function WinOpen_wasik8()
+		{
+				window.open("wasik_zadanie8.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
+		}
+	
+	function WinOpen_wasik8_kod()
+		{
+				window.open("wasik_zadanie8_kod.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
+		}
+	function WinOpen_wasik9_kod()
+		{
+				window.open("wasik_zadanie9_kod.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
+		}
+	
+	function WinOpen_wasik9()
+		{
+				window.open("wasik_zadanie9.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
+		}
+	function WinOpen_wasik10()
+		{
+				window.open("wasik_zadanie10.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
+		}
+	function WinOpen_wasik10_kod()
+		{
+				window.open("wasik_zadanie10_kod.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
+		}
+	function WinOpen_wasik11()
+		{
+				window.open("wasik_zadanie11.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
+		}
+	function WinOpen_wasik11_kod()
+		{
+				window.open("wasik_zadanie11_kod.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
+		}
+	function WinOpen_wasik12_kod()
+		{
+				window.open("wasik_zadanie12_kod.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
+		}
 
+
+	function WinOpen_wasik12()
+		{
+				window.open("wasik_zadanie12.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
+		}
+	function WinOpen_wasik13()
+		{
+				window.open("wasik_zadanie13.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
+		}
+function WinOpen_wasik13_kod()
+		{
+				window.open("wasik_zadanie13_kod.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
+		}
+function WinOpen_wasik14()
+		{
+				window.open("wasik_zadanie14.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
+		}
+function WinOpen_wasik17()
+		{
+				window.open("wasik_zadanie17.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
+		}
 
 
 </script>
+
+
+										<style type="text/css">
+													h1 {
+													
+													font-size:2cm;
+													color:red;
+													text-align: right; 
+													}
+
+										</style>
+
+
 </head>
 <body bgcolor=cyan>
+
+<font >
+
 <h1>Wąsik </h1>
 
-
+</font>
 
 <form>
 <input type="button" name="przycisk" value="Wasik_zadanie 1" onclick="WinOpen_wasik1(' ')">
@@ -96,12 +141,21 @@ window.open("wasik_zadanie13.html","okienko","toolbar=no,directories=no,menubar=
 <input type="button" name="przycisk" value="Wasik_zadanie 6" onclick="WinOpen_wasik6(' ')"><br>
 <input type="button" name="przycisk" value="Wasik_zadanie 7 " onclick="WinOpen_wasik7(' ')">
 <input type="button" name="przycisk" value="Wasik_zadanie 8 " onclick="WinOpen_wasik8(' ')">
+<input type="button" name="przycisk" value="Wasik_zadanie 8 kod " onclick="WinOpen_wasik8_kod(' ')">
 <input type="button" name="przycisk" value="Wasik_zadanie 9 " onclick="WinOpen_wasik9(' ')">
+<input type="button" name="przycisk" value="Wasik_zadanie 9 kod " onclick="WinOpen_wasik9_kod(' ')">
 <input type="button" name="przycisk" value="Wasik_zadanie 10 " onclick="WinOpen_wasik10(' ')"><br>
 <input type="button" name="przycisk" value="Wasik_zadanie 10 kod " onclick="WinOpen_wasik10_kod(' ')">
 <input type="button" name="przycisk" value="Wasik_zadanie 11 " onclick="WinOpen_wasik11(' ')">
+<input type="button" name="przycisk" value="Wasik_zadanie 11_kod " onclick="WinOpen_wasik11_kod(' 
 <input type="button" name="przycisk" value="Wasik_zadanie 12 " onclick="WinOpen_wasik12(' ')">
+<input type="button" name="przycisk" value="Wasik_zadanie 12_kod " onclick="WinOpen_wasik12_kod(' ')">
 <input type="button" name="przycisk" value="Wasik_zadanie 13 " onclick="WinOpen_wasik13(' ')">
+<input type="button" name="przycisk" value="Wasik_zadanie 13_kod " onclick="WinOpen_wasik13_kod(' ')">
+<input type="button" name="przycisk" value="Wasik_zadanie 14 " onclick="WinOpen_wasik14(' ')">
+<input type="button" name="przycisk" value="Wasik_zadanie 17 " onclick="WinOpen_wasik17(' ')">
+
+
 
 </form>
 </body>

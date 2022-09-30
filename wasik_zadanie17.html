@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+<title> Użycie fukcji </title>
+<meta charset="utf-8">
+</head>
+<body>
+<div style="color:navy;font-size:50px;">
+<script language="JavaScript">
+
+
+
+	var a=parseFloat(prompt("a=",""));
+	var b=parseFloat(prompt("b=",""));
+	
+	function suma_was(a, b) 
+	{
+	return a + b;
+}
+
+function roznica_was(a, b) 
+	{
+	return a - b;
+}
+function mnozenie_was(a, b) 
+	{
+	return a * b;
+}
+function dokwadratu_was(a, b) 
+	{
+	return a*a ;
+}
+function odkwadratu_was(a, b) 
+	{
+	return b*b ;
+}
+function reszta_was(a, b) 
+	{
+	return a%b ;
+}
+
+document.write("suma="+suma_was(a,b)+"<br>");
+document.write("różnica="+roznica_was(a,b)+"<br>");
+document.write("mnozenie="+mnozenie_was(a,b)+"<br>");
+document.write("do kwadratu="+dokwadratu_was(a,b)+"<br>");
+document.write("od kwadratu="+odkwadratu_was(a,b)+"<br>");
+document.write("reszta z dzielenia="+reszta_was(a,b)+"<br>");
+</script>
+</div>
+</body>
+</html>

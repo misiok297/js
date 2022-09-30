@@ -1,0 +1,81 @@
+<html>
+<body>
+<div style="color:green;font-size:39px;">
+<script language="JavaScript">
+var D1_was=prompt("bok b=","");
+var D2_was=prompt("bok c=","");
+
+var suma;
+var b=parseFloat(D1_was);
+var c=parseFloat(D2_was);
+
+var g= c*c-b*b;
+
+var a= Math.sqrt(g);  
+
+
+function wasik_zamknij_okno()
+																					{
+																							window.close()
+																					}
+
+
+
+
+
+
+
+document.write("bok a  = "+a+"<br>bok b  = "+b+"<br>bok c  = "+c+"<br>");
+</script>
+</div>
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br>
+
+
+
+<input type="button" value="zamknij okno" onclick="wasik_zamknij_okno()"/>
+
+
+
+
+
+
+
+</body>
+</html>

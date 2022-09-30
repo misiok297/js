@@ -1,0 +1,74 @@
+<html>
+<body>
+<div style="color:green;font-size:50px;">
+<script language="JavaScript">
+var liczba1=prompt("Podaj pierwszą liczbę A= ","");
+var liczba2=prompt("Podaj drugą liczbę B=","");
+var suma;
+var a_was=parseFloat(liczba1);
+var b_was=parseFloat(liczba2);
+suma=a+b;
+document.write("suma="+a+" + "+b+" = "+suma+"<br>");
+
+function wasik_zamknij_okno()
+            {
+            window.close()
+            }
+
+
+
+
+
+</script>
+</div>
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br>
+
+
+
+<input type="button" value="zamknij okno" onclick="wasik_zamknij_okno()"/>
+
+
+
+
+
+</body>
+</html>
