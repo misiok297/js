@@ -1,0 +1,43 @@
+<html>
+<head>
+<script type="text/javascript">
+ function okno_zamknij()
+ {
+ window.close()
+ }
+
+function wiezowiec(cena_b,zawartosc_b,zakup_b)//początek konstruktora
+{
+this.cena=cena_b;
+this.zawartosc=zawartosc_b;
+this.zakup=zakup_b;
+}//koniec konstruktora
+wiezowiec.prototype.wypisz = function () //definicja metody
+{
+alert(this.cena + ' ' + this.zawartosc+ ' ' + this.zakup);
+};
+var mieszkanie1 = new wiezowiec("15", "pietro", "17 grudnia"); // nowy obiekt osoba1
+var mieszkanie2 = new wiezowiec('10', 'pietro', '5 marca');
+var mieszkanie3 = new wiezowiec('2', 'pietro', '8 marca');
+mieszkanie1.wypisz();
+mieszkanie2.wypisz();
+mieszkanie3.wypisz();
+wiezowiec.prototype.pudelko_pokaz_wasik=function() {alert('Odbiorca: ' + this.odbiorca)}
+mieszkanie1.odbiorca='Piotr Wąsik';
+mieszkanie2.odbiorca='Szymon Paź';
+mieszkanie3.odbiorca='Andrzej Piotrowski';
+mieszkanie1.pudelko_pokaz_wasik();
+mieszkanie2.pudelko_pokaz_wasik();
+mieszkanie3.pudelko_pokaz_wasik();
+document.write("dostęp do właściwości"+"<br>");
+document.write("wiezowiec jeden"+" "+mieszkanie1.cena+" "+mieszkanie1.zawartosc+" "+mieszkanie1.zakup+" "+mieszkanie1.odbiorca+"<br>");
+document.write("wiezowiec dwa"+" "+mieszkanie2.cena+" "+mieszkanie2.zawartosc+" "+mieszkanie2.zakup+" "+mieszkanie2.odbiorca+"<br>");
+document.write("wiezowiec trzy"+" "+mieszkanie3.cena+" "+mieszkanie3.zawartosc+" "+mieszkanie3.zakup+" "+mieszkanie3.odbiorca+"<br>");
+</script>
+</head>
+<body>
+<br>
+programowanie obiektowe<br>
+<input type="button" value="zamknij okno" onclick="okno_zamknij()"/>
+</body>
+</html>
