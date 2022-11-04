@@ -1,0 +1,89 @@
+<html>
+ <head>
+ <title>Zadanie 25</title>
+ <script language="JavaScript">
+ function okno_zamknij()
+ {
+ window.close()
+ }
+ </script>
+ </head>
+<body>
+<h2><ol><li>W jaki sposób można określić właściwość danego obiektu ( dwa sposoby wraz z przykładami)? (odpowiedź poniżej)</li></h2>
+Używając zapisu postaci:
+a)
+nazwa_obiektu.nazwa_właściwości="tekst"; - dla właściwości typu tekstowego
+np.
+auto.marka="Opel Omega";
+b)
+nazwa_obiektu.nazwa_właściwości=liczba; - dla właściwości typu liczbowego
+np.
+auto.rok=1996;
+auto.cena=25000;
+
+używając zapisu postaci:
+nazwa_obiektu[nazwa_właściwości];
+np. auto[cena]=25000;
+<h2><li>W jaki sposób można odwołać się do pól (właściwości) i metod?</li></h2>
+Do właściwości i metod można się odwołać podobnie jak do zwykłych zmiennych
+i funkcji, trzeba tylko przed ich nazwą umieścić nazwę obiektu, którego są elementami
+(np. zmienną, która przechowuje dany obiekt), i kropkę.
+<h2><li>Wymień cechy charakterystyczne konstruktora.)</li></h2>
+<ul><li>jest wywoływany (uruchamiany) automatycznie w chwili tworzenia obiektu danej klasy - na rzecz tego obiektu,</li>
+<li>nazywa się tak samo jak klasa,</li>
+<li>nie zwraca żadnej wartości ,</li>
+<li>może przyjmować argumenty - tak jak zwykła funkcja czy metoda, aby następnie powołać do życia obiekt za pomocą operatora new.</li></ul>
+<h2><li>Konstruowanie obiektu na podstawie przykładu - obiekt ma trzy pola oraz jedną metodę.</li></h2>
+var osoba_1 =<br><br>
+{<br><br>
+nazwisko : ‘Kowalski’,<br><br>
+imie :’Jan’,<br><br>
+zawod :’piekarz’,<br><br>
+wyświetl :function ()<br><br>
+{<br><br>
+Document.write(this.nazwisko + ‘ ‘ + this.imie)<br><br>
+}<br><br>
+}<br><br>
+<h2><li>Znaczenie słowa this. Jak oddzielamy pola oraz metody?</li></h2>
+this pozwala odwołać się do pola lub metody obiektu z wnętrza tego obiektu. Pola i metody są  oddzielane przecinkami w obrębie jednego obiektu.
+<h2><li>Konstruktor w JS na podstawie przykładu wraz z opisem.</li></h2>
+Zostanie utworzony konstruktor o nazwie klient z właściwościami nazwisko, imie, zawod oraz metodą wypisz(). Właściwościom obiektu zostały przypisane wartości parametrów. Użyte słowo kluczowe this odnosi się do aktualnego obiektu i pozwala na przypisanie wartości parametru do odpowiedniego pola tego obiektu.<br><br>
+function klient(nazwisko_k,imie_k,zawod_k)<br><br>
+{<br><br>
+this.nazwisko=nazwisko_k;<br><br>
+this.imie=imie_k;<br><br>
+this.zawod=zawod_k;<br><br>
+wypisz = function ()<br><br>
+{<br><br>
+alert(this.nazwisko + ' ' + this.imie)<br><br>
+}<br><br>
+}<br><br>
+<h2><li>Znaczenie słowa kluczowego New wraz z przykładem.</li></h2>
+Do utworzenia nowego obiektu na podstawie konstruktora stosowane jest słowo kluczowe new.<br><br>
+<br><br>
+var osoba1 = new klient('Kowalski', 'Jan', 'kierowca');<br><br>
+28<br><br>
+var osoba2 = new klient('Nowak', 'Anna', 'sekretarka');<br><br>
+Powstały dwa nowe obiekty osoba1 i osoba2 należące do klasy klient.<br><br>
+<h2><li>Znaczenie słowa kluczowego prototype wraz z przykładem i opisem<li></h2>
+Do definowania metod i właściwości dla obiektu jest wykorzystana właściwości prototype.<br><br><br><br>
+<br><br><br><br>
+function klient()<br><br><br><br>
+{<br><br><br><br>
+this.nazwisko='Bielski';<br><br><br><br>
+this.imie='Paweł';<br><br><br><br>
+}<br><br><br><br>
+klient.prototype.pisz_dane = function ()<br><br><br><br>
+{<br><br><br><br>
+document.write(this.nazwisko + ' ' + this.imie)<br><br><br><br>
+}<br><br><br><br>
+klient.prototype.zawod = 'kierowca';<br><br><br>
+var osoba1 = new klient();<br><br>
+osoba1.pisz_dane();<br><br>
+Opis do przykładu powyżej:<br><br>
+W definicji konstruktora nie zostały zadeklarowane żadne metody i właściwości. Dopiero po użyciu właściwości prototype została dodana metoda pisz_dane oraz właściwość zawod. Od tej pory każdy nowo tworzony obiekt na podstawie konstruktora klient będzie posiadał tę dodatkową właściwość i metodę.<br><br>
+<b>Właściwość prototype może być również wykorzystana do dodawania dodatkowych metod lub właściwości do istniejących obiektów.</b><br><br>
+</ol>
+<input type="button" value="zamknij okno" onclick="okno_zamknij()"/>
+</body>
+</html>
