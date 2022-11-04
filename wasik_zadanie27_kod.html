@@ -1,0 +1,37 @@
+<html>
+<head>
+</head>
+<body>
+<textarea col="100" rows="60" width="500">
+<html>
+<head>
+<script type="text/javascript">
+ function okno_zamknij()
+ {
+ window.close()
+ }
+
+var wiezowiec = {
+wysokosc: '175 m',
+liczba_pienter: '20',
+szerokość: '25m',
+wiezowiec_wyswietl_wasik: function ()
+{
+document.write(this.wysokosc + ' ' + this.liczba_pienter)
+}
+}
+wiezowiec.wiezowiec_wyswietl_wasik();
+wiezowiec.mieszkaniec='Piotr Wąsik';
+wiezowiec.wiezowiec_pokaz_wasik=function() {alert('mieszkaniec: ' + this.mieszkaniec)}
+wiezowiec.wiezowiec_pokaz_wasik();
+</script>
+</head>
+<body>
+<br><p>
+programowanie obiektowe</p><br>
+<input type="button" value="zamknij okno" onclick="okno_zamknij()"/>
+</body>
+</html>
+</textarea>
+</body>
+</html>
