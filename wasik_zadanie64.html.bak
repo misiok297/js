@@ -1,0 +1,17 @@
+<html>
+<body>
+<div >
+<script language="JavaScript">
+var x=prompt("podaj rok =","");
+var a=parseFloat(x);
+var rok_wasik=1995;
+document.write("wczytany rok ="+a+"<br>");
+if(a%2==0)
+{document.write ("<p style=\"font-size: 3.px; color: red;\"><br>Liczba jest parzysta<br></p>");}
+else
+{document.write ("<p style=\"font-size: 5px; color: silver;\"><br>Liczba nie jest parzysta<br></p>");
+}
+</script>
+</div>
+</body>
+</html>

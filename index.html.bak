@@ -97,6 +97,13 @@ function WinOpen_wasik13_kod()
 		{
 				window.open("wasik_zadanie13_kod.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
 		}
+		function WinOpen_wasik14_kod()
+		{
+				window.open("wasik_zadanie14_kod.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
+		}
+		
+		
+		
 function WinOpen_wasik14()
 		{
 				window.open("wasik_zadanie14.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
@@ -105,8 +112,95 @@ function WinOpen_wasik17()
 		{
 				window.open("wasik_zadanie17.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
 		}
+function WinOpen_wasik18()
+		{
+				window.open("wasik_zadanie18.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
+		}
+function WinOpen_wasik19()
+		{
+				window.open("wasik_zadanie19.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
+				
+		}
+		function WinOpen_wasik19_kod()
+		{
+				window.open("wasik_zadanie19	_kod.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
+		}
+		
+		
+		
+function WinOpen_wasik20()
+		{
+				window.open("wasik_zadanie20.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
+		}
+		
+		
+	
+		function WinOpen_wasik20_kod()
+		{
+				window.open("wasik_zadanie20	_kod.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
+		}	
+		
+		
+function WinOpen_wasik21()
+		{
+				window.open("wasik_zadanie21.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
+		}
 
+	
+	function WinOpen_wasik24()
+		{
+				window.open("wasik_zadanie24.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
+		}
+	
+	function WinOpen_wasik25()
+		{
+				window.open("wasik_zadanie25.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
+		}
+	
+	
+	
+	
+	
+	
 
+	function WinOpen_wasik26()
+		{
+				window.open("wasik_zadanie26.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
+		}
+	
+	
+	function WinOpen_wasik26_kod()
+		{
+				window.open("wasik_zadanie26_kod.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
+		}
+		function WinOpen_wasik27_kod()
+		{
+				window.open("wasik_zadanie27_kod.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
+		}
+	
+	
+	
+	function WinOpen_wasik27()
+		{
+				window.open("wasik_zadanie27.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
+		}
+	
+	
+	function WinOpen_wasik28_kod()
+		{
+				window.open("wasik_zadanie28_kod.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
+		}
+	
+	
+	
+	function WinOpen_wasik28()
+		{
+				window.open("wasik_zadanie28.html","okienko","toolbar=no,directories=no,menubar=no,height=1000,width=1000,top=200,left=200");
+		}
+	
+	
+	
+	
 </script>
 
 
@@ -133,30 +227,60 @@ function WinOpen_wasik17()
 <form>
 <input type="button" name="przycisk" value="Wasik_zadanie 1" onclick="WinOpen_wasik1(' ')">
 <input type="button" name="przycisk" value="Wasik_zadanie 2" onclick="WinOpen_wasik2(' ')">
-<input type="button" name="przycisk" value="Wasik_zadanie 1 kod" onclick="WinOpen_wasik1_kod(' ')">
-<input type="button" name="przycisk" value="Wasik_zadanie 2 kod " onclick="WinOpen_wasik2_kod(' ')"><br>
+
 <input type="button" name="przycisk" value="Wasik_zadanie 3" onclick="WinOpen_wasik3(' ')">
-<input type="button" name="przycisk" value="Wasik_zadanie 4 " onclick="WinOpen_wasik4(' ')">
+<input type="button" name="przycisk" value="Wasik_zadanie 4 " onclick="WinOpen_wasik4(' ')"><br>
 <input type="button" name="przycisk" value="Wasik_zadanie 5" onclick="WinOpen_wasik5(' ')">
-<input type="button" name="przycisk" value="Wasik_zadanie 6" onclick="WinOpen_wasik6(' ')"><br>
-<input type="button" name="przycisk" value="Wasik_zadanie 7 " onclick="WinOpen_wasik7(' ')">
+<input type="button" name="przycisk" value="Wasik_zadanie 6" onclick="WinOpen_wasik6(' ')">
+<input type="button" name="przycisk" value="Wasik_zadanie 7 " onclick="WinOpen_wasik7(' ')"><br>
 <input type="button" name="przycisk" value="Wasik_zadanie 8 " onclick="WinOpen_wasik8(' ')">
-<input type="button" name="przycisk" value="Wasik_zadanie 8 kod " onclick="WinOpen_wasik8_kod(' ')">
-<input type="button" name="przycisk" value="Wasik_zadanie 9 " onclick="WinOpen_wasik9(' ')">
-<input type="button" name="przycisk" value="Wasik_zadanie 9 kod " onclick="WinOpen_wasik9_kod(' ')">
-<input type="button" name="przycisk" value="Wasik_zadanie 10 " onclick="WinOpen_wasik10(' ')"><br>
-<input type="button" name="przycisk" value="Wasik_zadanie 10 kod " onclick="WinOpen_wasik10_kod(' ')">
+
+<input type="button" name="przycisk" value="Wasik_zadanie 9 " onclick="WinOpen_wasik9(' ')"><br>
+
+<input type="button" name="przycisk" value="Wasik_zadanie 10 " onclick="WinOpen_wasik10(' ')">
+
 <input type="button" name="przycisk" value="Wasik_zadanie 11 " onclick="WinOpen_wasik11(' ')">
-<input type="button" name="przycisk" value="Wasik_zadanie 11_kod " onclick="WinOpen_wasik11_kod(' 
-<input type="button" name="przycisk" value="Wasik_zadanie 12 " onclick="WinOpen_wasik12(' ')">
-<input type="button" name="przycisk" value="Wasik_zadanie 12_kod " onclick="WinOpen_wasik12_kod(' ')">
+<input type="button" name="przycisk" value="Wasik_zadanie 12 " onclick="WinOpen_wasik12(' ')"><br>
+
 <input type="button" name="przycisk" value="Wasik_zadanie 13 " onclick="WinOpen_wasik13(' ')">
-<input type="button" name="przycisk" value="Wasik_zadanie 13_kod " onclick="WinOpen_wasik13_kod(' ')">
+
+
+
+
 <input type="button" name="przycisk" value="Wasik_zadanie 14 " onclick="WinOpen_wasik14(' ')">
-<input type="button" name="przycisk" value="Wasik_zadanie 17 " onclick="WinOpen_wasik17(' ')">
 
+<input type="button" name="przycisk" value="Wasik_zadanie 17 " onclick="WinOpen_wasik17(' ')"><br>
+<input type="button" name="przycisk" value="Wasik_zadanie 18 " onclick="WinOpen_wasik18(' ')">
+<input type="button" name="przycisk" value="Wasik_zadanie 19 " onclick="WinOpen_wasik19(' ')">
 
-
+<input type="button" name="przycisk" value="Wasik_zadanie 20 " onclick="WinOpen_wasik20(' ')"><br>
+<input type="button" name="przycisk" value="Wasik_zadanie 21 " onclick="WinOpen_wasik21(' ')">
+	<input type="button" name="przycisk" value="Wasik_zadanie 24 " onclick="WinOpen_wasik24(' ')">
+	<input type="button" name="przycisk" value="Wasik_zadanie 25 " onclick="WinOpen_wasik25(' ')">
+	
+	<input type="button" name="przycisk" value="Wasik_zadanie 26 " onclick="WinOpen_wasik26(' ')">
+	<input type="button" name="przycisk" value="Wasik_zadanie 27 " onclick="WinOpen_wasik27(' ')">
+		<input type="button" name="przycisk" value="Wasik_zadanie 28 " onclick="WinOpen_wasik28(' ')">
+<hr color=red>
+<input type="button" name="przycisk" value="Wasik_zadanie 1 kod" onclick="WinOpen_wasik1_kod(' ')"><br>
+<input type="button" name="przycisk" value="Wasik_zadanie 2 kod " onclick="WinOpen_wasik2_kod(' ')">
+<input type="button" name="przycisk" value="Wasik_zadanie 8 kod " onclick="WinOpen_wasik8_kod(' ')">
+	<input type="button" name="przycisk" value="Wasik_zadanie 9 kod " onclick="WinOpen_wasik9_kod(' ')">
+	<input type="button" name="przycisk" value="Wasik_zadanie 10 kod " onclick="WinOpen_wasik10_kod(' ')"><br>
+	
+<input type="button" name="przycisk" value="Wasik_zadanie 11_kod " onclick="WinOpen_wasik11_kod(' ')">
+	<input type="button" name="przycisk" value="Wasik_zadanie 12_kod " onclick="WinOpen_wasik12_kod(' ')">
+	<input type="button" name="przycisk" value="Wasik_zadanie 13_kod " onclick="WinOpen_wasik13_kod(' ')"><br>
+	<input type="button" name="przycisk" value="Wasik_zadanie 14_kod " onclick="WinOpen_wasik14_kod(' ')">
+	<input type="button" name="przycisk" value="Wasik_zadanie 19_kod " onclick="WinOpen_wasik19_kod(' ')">
+<input type="button" name="przycisk" value="Wasik_zadanie 20_kod " onclick="WinOpen_wasik20_kod(' ')">
+	<input type="button" name="przycisk" value="Wasik_zadanie 26_kod " onclick="WinOpen_wasik26_kod(' ')">
+	<input type="button" name="przycisk" value="Wasik_zadanie 27_kod " onclick="WinOpen_wasik27_kod(' ')">
+	<input type="button" name="przycisk" value="Wasik_zadanie 28_kod " onclick="WinOpen_wasik28_kod(' ')">
+	
+	
+	
+	
 </form>
 </body>
 </html>
