@@ -4,14 +4,27 @@
  <meta charset="utf-8">
  <title> Przykład użycia pętli </title>
  <script language="JavaScript">
- for ( var i=1; i<=10; i++)
+ 
+ var a_was=prompt("podaj  swoje inicjały","");
+var y_was=prompt("podaj ile razy  wypisać twoje inicjały","");
+
+var b_was=parseFloat(y_was);
+ 
+ 
+ 
+ for (  i=1; i<=b_was; i++)
  {
  for ( var k=1; k<=i; k++)
  {
- document.write("&nbsp");
+ document.write("&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp");
  }
- document.write(i+"<br>");
+ document.write(i+"_"+a_was+"_"+i+"<br>");
  }
+ 
+ 
+ 
+ 
+ 
  </script>
 </head>
 <body>
